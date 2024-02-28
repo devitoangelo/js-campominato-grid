@@ -8,6 +8,8 @@ Bonus
 
 # steps 
 - Creare una lista con 10 righe e per ciascuna ci saranno 10 quadrati tramite un ciclo for 
+- assegno alla ai quadrati una classe box per poterli asseganre un colore diverso
+- tramite una funzione assegniamo il bg-colo alle classi box
 
 
 
@@ -16,3 +18,7 @@ Bonus
 - class container
 - getElementById
 - ciclo for
+- getElementbyclass
+- for
+- addEventlistner (click)
+- function

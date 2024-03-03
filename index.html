@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/js-campominato-grid/assets/css/style.css">
+    <title>Campo-minato</title>
+
 </head>
+
 <body>
-    <div id="container">
 
 
-    </div>
-  
+    <header>
+        <div class="logo"><img src="/js-campominato-grid/assets/img/Logo.png" alt="">Campo minato 🍄</div>
+        <form>
+            <select name="level" id="level">
+                <option value="100">Easy</option>
+                <option value="81">Medium</option>
+                <option value="49">Hard</option>
+            </select>
+            <button type="submit" class="play">Start</button>
+        </form>
+    </header>
+
+    <main>
+
+        <div id="game-over">Game over your score :<span> 123</span></div>
+        <div id="field"></div>
 
 
-    <script src="./assets/js/main.js"></script>
+    </main>
+
+    <script src="/js-campominato-grid/assets/js/main.js"></script>
 </body>
+
 </html>

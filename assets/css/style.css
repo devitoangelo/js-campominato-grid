@@ -1,19 +1,48 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem 0;
+}
+
+.bg-active {
+    background-color: palegreen;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.box {
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    border: 1px solid;
-}
-
-#container {
+#field {
     display: flex;
     flex-wrap: wrap;
-    max-width: 1000px;
+    width: 50%;
     margin: auto;
+
+    .cell {
+        width: calc(100% / 10);
+        aspect-ratio: 1;
+        flex-shrink: 0;
+        border: 1px solid;
+    }
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+span {
+    display: none;
+}
+
+#game-over {
+    display: none;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
